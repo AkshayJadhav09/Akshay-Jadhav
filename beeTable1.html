@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Datatable</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js">
+    </script>
+      
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $('#example').DataTable( {
+        ajax: {
+                url: 'table.json',
+                dataSrc: ''
+                },
+        columns: [
+            {data: 'location.address'},
+            {data: 'locaion.latlon'},
+            {data: 'damagedComponents'},
+            {data: '_id'},
+            {data: 'userId'},
+            {data: 'bikeNumber' },
+            {data: 'description' },
+            {data: 'reportId' },
+            {data: 'time'},
+            {data: '__v'}
+     
+                  ]
+              });
+            });
+    </script>
+  
+
+    
+</head>
+<body>
+<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Address</th>
+                <th>Latlon</th>
+                <th>Damaged Component</th>
+                <th>ID</th>
+                <th>User ID</th>
+                <th>Bike Number</th>
+                <th>Description</th>
+                <th>Report ID</th>
+                <th>Time<th>
+                <th>V</th>    
+        
+            </tr>
+        </thead>
+      
+    </table>
+</body>
+</html>
