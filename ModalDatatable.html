@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js">
+    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+    <script type="text/javascript">
+
+$(document).click(function() {
+
+  $('#example').DataTable( {
+        ajax: {
+                url: 'table.json',
+                dataSrc: ''
+                },
+        columns: [
+            {data: 'location.address'},
+            {data: 'locaion.latlon'},
+            {data: 'damagedComponents'},
+            {data: '_id'},
+            {data: 'userId'},
+            {data: 'bikeNumber' },
+            {data: 'description' },
+            {data: 'reportId' },
+            {data: 'time'},
+            {data: '__v'}
+     
+                  ]
+              });
+            
+            /*$('#example').DataTable({
+                responsive: {
+                    details: {
+                        display: $.fn.dataTable.Responsive.display.modal({
+                            ajax: {
+                                url: 'table.json',
+                                dataSrc: ''
+                            },
+                            columns: [{
+                                    data: 'reportId'
+                                },
+                                {
+                                    data: 'userId'
+                                },
+                                {
+                                    data: 'bikeNumber'
+                                }
+
+                            ]
+
+                        }),
+                        renderer: $.fn.dataTable.Responsive.renderer.tableAll({
+                            tableClass: 'display'
+
+                        });
+                    }
+                }
+            })*/
+
+})
+      
+
+
+          /*$(document).click(function() {
+        	$('#example').DataTable( {
+        	ajax: {
+                url: 'http://54.88.119.46:4231/bee/v1/report/getBikeReport',
+                dataSrc: ''
+                },
+        	columns: [
+            	{ data: 'reportId' },
+            	{ data: 'userId' },
+            	{ data: 'bikeNumber' }*/
+     
+         //          ]
+         //      });
+         //    });
+    	
+        
+    </script>
+</head>
+
+<body>
+
+	
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button id="demo" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <div>
+          	<table id="example"  class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Address</th>
+                <th>Latlon</th>
+                <th>Damaged Component</th>
+                <th>ID</th>
+                <th>User ID</th>
+                <th>Bike Number</th>
+                <th>Description</th>
+                <th>Report ID</th>
+                <th>Time<th>
+                <th>V</th>    
+        
+            </tr>
+        </thead>
+        </table>
+    	</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+	
+</body>
+</html>
