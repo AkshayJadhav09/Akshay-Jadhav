@@ -12,7 +12,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "BRAKES",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -30,7 +30,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "BATTERY",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -48,7 +48,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "TYRE",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -66,7 +66,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "STAND",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -84,7 +84,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "NO-QR",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -102,7 +102,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "BATTERY DISPLAY",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -120,7 +120,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "BRAKES",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -138,7 +138,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "BATTERY",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -156,7 +156,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "TYRE",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -174,7 +174,7 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "STAND",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
@@ -192,10 +192,459 @@
         "userId": "66Y6M",
         "bikeNumber": "Hadpsar",
         "type": "NORMAL",
-        "description": "",
+        "description": "NO-QR",
         "reportId": "NPBVK",
         "time": "1573297679170",
         "__v": 0
 },
-
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY DISPLAY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BRAKES",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "TYRE",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "STAND",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "NO-QR",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY DISPLAY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BRAKES",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "TYRE",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "STAND",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "NO-QR",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY DISPLAY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BRAKES",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "TYRE",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "STAND",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "NO-QR",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY DISPLAY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BRAKES",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "TYRE",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "STAND",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "NO-QR",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
+{
+        "location": {
+            "address": "63b,Handewadi Road,Undri,Autadwadi Handewadi,411028",
+            "latlon": {
+                "lat": 18.4676577,
+                "lng": 73.9337023
+            }
+        },
+        "damagedComponents": [],
+        "_id": "5dc69e0f9874880a39caa9dc",
+        "userId": "66Y6M",
+        "bikeNumber": "Hadpsar",
+        "type": "NORMAL",
+        "description": "BATTERY DISPLAY",
+        "reportId": "NPBVK",
+        "time": "1573297679170",
+        "__v": 0
+},
 ]
