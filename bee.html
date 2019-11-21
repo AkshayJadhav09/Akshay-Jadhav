@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>JSON and AJAX</h1>    
+</head>
+    
+    <body>
+        
+        
+        <button id="btn">Fetch the information</button>
+        <div id="record"></div>
+        
+        <script>
+        
+            var employeeRecord = document.getElementById("record");
+            var btn = document.getElementById("btn");
+            
+            btn.addEventListener("click", function(){
+            var ourRequest = new XMLHttpRequest();
+            ourRequest.open("GET",
+            "https://akshayjadhav09.github.io/code/main.json");
+            ourRequest.onload = function(){
+            var ourData = JSON.parse(ourRequest.responseText);
+            renderHTML(ourData);
+            }
+            ourRequest.send();
+            });
+            
+            function renderHTML(data){
+                var htmlString = "";
+                
+                for(i = 0; i < data.length; i++){
+                    htmlString += "<p>" + data[i].name + " your employee id is " + data[i].id + " and salary is " + data[i].Salary + ".</p>";
+                }
+                
+                employeeRecord.insertAdjacentHTML("beforeend", htmlString);
+                
+            }
+            
+        </script>
+        
+        
+
+    </body>
+    
+</html>
